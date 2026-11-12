@@ -12,7 +12,7 @@ public class TestCommand {
 		DrawingModel model = new DrawingModel();
 		
 		//Testira dodavanje tačke
-		AddPointCmd addPointCmd = new AddPointCmd(model, p1);
+		Command addPointCmd = new AddPointCmd(model, p1);
 		addPointCmd.execute();
 		System.out.println(model.getShapes());
 		
