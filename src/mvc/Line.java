@@ -21,7 +21,8 @@ public class Line extends Shape{
 
 	@Override
 	public void draw(Graphics g) {
-		// implementacija draw metode
+		g.drawLine(startPoint.getX(), startPoint.getY(), endPoint.getX(), endPoint.getY());
+		g.setColor(color);
 		
 	}
 
